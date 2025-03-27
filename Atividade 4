@@ -1,0 +1,19 @@
+programa {
+  funcao inicio() {
+
+    real precoGasolina, quantidadeLitros, total
+
+    escreva ("POSTO DE GASOLINA\n")
+
+    escreva ("\nDigite o valor do litro da gasolina(R$): ")
+    leia (precoGasolina)
+
+    escreva ("Digite a quantidade de litros que foi abastecida: ")
+    leia (quantidadeLitros)
+
+    total = precoGasolina * quantidadeLitros
+
+    escreva ("\nO cliente deverá pagar R$ "+total+" pelo abastecimento.\n")
+
+  }
+}
