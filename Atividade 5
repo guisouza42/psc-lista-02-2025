@@ -1,0 +1,31 @@
+programa {
+  funcao inicio() {
+
+    real viagemAlemanha, pessoasAlemanha, viagemPortugal, pessoasPortugal, viagemItalia, pessoasItalia, totalViagem
+
+    escreva ("EUROTRIP\n")
+
+    escreva ("\nDigite o valor atual da viagem para Alemanha, em reais (R$): ")
+    leia (viagemAlemanha)
+
+    escreva ("Digite a quantidade de pessoas que irão na viagem para Alemanha: ")
+    leia (pessoasAlemanha)
+
+    escreva ("\nDigite o valor atual da viagem para Portugal, em reais (R$): ")
+    leia (viagemPortugal)
+
+    escreva ("Digite a quantidade de pessoas que irão na viagem para Portugal: ")
+    leia (pessoasPortugal)
+
+    escreva ("\nDigite o valor atual da viagem para Itália, em reais (R$): ")
+    leia (viagemItalia)
+
+    escreva ("Digite a quantidade de pessoas que irão na viagem para Itália: ")
+    leia (pessoasItalia)
+
+    totalViagem = (viagemAlemanha*pessoasAlemanha)+(viagemPortugal*pessoasPortugal)+(viagemItalia*pessoasItalia)
+
+    escreva ("\nO valor total da Eurotrip ficou em R$ "+totalViagem+" reais.\n")
+
+  }
+}
