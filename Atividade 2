@@ -1,0 +1,23 @@
+programa {
+  funcao inicio() {
+
+    real numeroUm, numeroDois, soma, subtracao, multiplicacao
+
+    escreva ("OPERAÇÕES DE DOIS NÚMEROS\n")
+
+    escreva ("\nDigite o primeiro número: ")
+    leia (numeroUm)
+
+    escreva ("Digite o segundo número: ")
+    leia (numeroDois)
+
+    soma = numeroUm + numeroDois
+    subtracao = numeroUm - numeroDois
+    multiplicacao = numeroUm * numeroDois
+
+    escreva ("\nA soma dos dois números é "+soma+".\n")
+    escreva ("A subtração dos dois números é "+subtracao+".\n")
+    escreva ("A multiplicação dos dois números é "+multiplicacao+".\n")
+
+  }
+}
